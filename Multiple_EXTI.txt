@@ -1,0 +1,52 @@
+Configuration	Multiple_EXTI
+STM32CubeMX 	6.14.1
+Date	06/30/2025
+MCU	STM32F411RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	
+14	PA0-WKUP	GPIO_EXTI0	
+21	PA5	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	
+14	PA0-WKUP	GPIO_EXTI0	
+21	PA5	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Multiple_EXTI
+Project Folder : /Users/abdelilahelkarmoudi/Desktop/sect2/Multiple_EXTI
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
